@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Фёдоров Никита</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home" class="nav-link active">Главная</a></li>
+                <li><a href="#skills" class="nav-link">Навыки</a></li>
+                <li><a href="#education" class="nav-link">Образование</a></li>
+                <li><a href="#achievements" class="nav-link">Достижения</a></li>
+                <li><a href="#projects" class="nav-link">Проекты</a></li>
+                <li><a href="#contacts" class="nav-link">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-img-container">
+                    <img src="assets/avatar.png" alt="Фёдоров Никита" class="avatar">
+                </div>
+                <h1>Привет, я <span class="name">Фёдоров Никита</span></h1>
+                <div class="role-container">
+                    <span class="role-text" id="typewriter"></span><span class="cursor">|</span>
+                </div>
+                <div class="description">
+                    <p>Я студент Торайгыров Университета в городе Павлодар, Казахстан. Увлекаюсь разработкой программного обеспечения и постоянно стремлюсь к изучению новых технологий.</p>
+                    <p>Мой путь в IT начался с обучения в колледже, и сейчас я продолжаю развивать свои навыки в области Computer Science, участвуя в различных конкурсах и профессиональных мероприятиях.</p>
+                </div>
+                <a href="#contacts" class="btn">Связаться со мной</a>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">Навыки</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Hard Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                            <span class="percentage">75%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Kotlin</span>
+                            <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+                            <span class="percentage">65%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>C++</span>
+                            <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                            <span class="percentage">60%</span>
+                        </div>
+                    </div>
+                    <h4>Инструменты</h4>
+                    <ul class="tools-list">
+                        <li><i class="fab fa-git-alt"></i> Git</li>
+                        <li><i class="fas fa-database"></i> MySQL</li>
+                        <li><i class="fas fa-desktop"></i> Android Studio</li>
+                        <li><i class="fab fa-linux"></i> Linux</li>
+                    </ul>
+                    <h4>Другое</h4>
+                    <ul class="other-skills">
+                        <li>Объектно-ориентированное программирование</li>
+                        <li>Паттерны проектирования</li>
+                        <li>Разработка мобильных приложений (Android)</li>
+                        <li>Разработка настольных приложений</li>
+                        <li>HTTP</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul class="soft-skills-list">
+                        <li><i class="fas fa-users"></i> Командная работа</li>
+                        <li><i class="fas fa-lightbulb"></i> Критическое мышление</li>
+                        <li><i class="fas fa-comments"></i> Коммуникабельность</li>
+                        <li><i class="fas fa-tasks"></i> Тайм-менеджмент</li>
+                    </ul>
+                    <h3>Языки</h3>
+                    <ul class="languages-list">
+                        <li><strong>Русский:</strong> Родной</li>
+                        <li><strong>Английский:</strong> Upper-Intermediate (B2)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <h2 class="section-title">Образование</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024 — Настоящее время</div>
+                    <div class="timeline-content">
+                        <h3>Торайгыров Университет</h3>
+                        <p class="degree">Высшее образование: Computer Science</p>
+                        <p>Продолжаю углубленное изучение компьютерных наук, алгоритмов и современной программной инженерии в Павлодаре.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 — 2024</div>
+                    <div class="timeline-content">
+                        <h3>Высший Колледж Инновационного Евразийского Университета</h3>
+                        <p class="degree">Среднее образование: Информационные системы</p>
+                        <p>Получил фундаментальные знания в области информационных систем, программирования и администрирования баз данных.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="achievements">
+            <h2 class="section-title">Достижения</h2>
+            <div class="achievements-container">
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>WorldSkills 2022</h3>
+                    <p class="date">2022</p>
+                    <p>Участие в профессиональном конкурсе WorldSkills, занял призовое место.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>WorldSkills 2023</h3>
+                    <p class="date">2023</p>
+                    <p>Участие в профессиональном конкурсе WorldSkills, занял призовое место.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Сертификат Huawei</h3>
+                    <p class="date">2025</p>
+                    <p>Успешно прошел сертификацию от компании Huawei, подтвердив технические компетенции.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">Проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/project1.png" alt="Проект 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Персональный сайт-портфолио, разработанный для демонстрации навыков и достижений. Проект включает в себя адаптивную верстку и интерактивные элементы на JavaScript.</p>
+                        <p class="tech-stack">Технологии: HTML5, CSS3, JavaScript</p>
+                        <div class="project-links">
+                            <a href="https://github.com/nikita-fedorov/portfolio" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/project2.png" alt="Проект 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Android Application</h3>
+                        <p>Разработка мобильного приложения на языке Kotlin. Реализация современного интерфейса и интеграция с внешними API.</p>
+                        <p class="tech-stack">Технологии: Kotlin, Android SDK, MVVM</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/project3.png" alt="Проект 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Desktop System Tool</h3>
+                        <p>Системная утилита, разработанная на C++. Оптимизация производительности и работа с низкоуровневыми ресурсами ОС.</p>
+                        <p class="tech-stack">Технологии: C++, Qt, System API</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-container">
+                <div class="contact-info">
+                    <h3>Свяжитесь со мной</h3>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:student@example.com">student@example.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Локация:</strong> Павлодар, Казахстан</p>
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://hackerrank.com/" target="_blank"><i class="fab fa-hackerrank"></i></a>
+                        <a href="https://t.me/" target="_blank"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить</button>
+                        <div id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Фёдоров Никита.</p>
+            <p>Разработано с использованием HTML5, CSS3 и JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
